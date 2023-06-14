@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T16:42:13.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="PAgypSlL_uhc9dA9swNx" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T07:21:32.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OXaOlg5-Lhkudh5DhEkX" version="20.8.5" type="github">
   <diagram name="Page-1" id="Kkhko3-lI88rhhToAhvI">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,7 +96,7 @@
         <mxCell id="GTdq3fTMbGytyCx3zL99-26" value="Check UI" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1160" y="125" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GTdq3fTMbGytyCx3zL99-28" value="SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=13.75;" parent="1" vertex="1">
+        <mxCell id="GTdq3fTMbGytyCx3zL99-28" value="SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10.333333333333428;" parent="1" vertex="1">
           <mxGeometry x="131" y="430" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTdq3fTMbGytyCx3zL99-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GTdq3fTMbGytyCx3zL99-31" target="GTdq3fTMbGytyCx3zL99-28" edge="1">
@@ -105,7 +105,7 @@
         <mxCell id="GTdq3fTMbGytyCx3zL99-31" value="Resolve ?? Delete" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1160" y="354" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KGSe6S6s_oEejVPAiPoT-34" value="&lt;h1&gt;Scenario 1: Check count of recent PIs and if its over 0 then send alert&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Problems:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;We only send metrics if the count is greater than so the alert is never resolved as it takes the most recent count which will always remain as the last value &amp;gt;0&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="KGSe6S6s_oEejVPAiPoT-34" value="&lt;h1&gt;Scenario 1: Check count of recent PIs and if its over 0 then send alert&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Problems:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;We only send metrics if the count is greater than zero so the alert is never resolved as it takes the most recent count which will always remain as the last value &amp;gt;0&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="560" width="520" height="190" as="geometry" />
         </mxCell>
         <mxCell id="KGSe6S6s_oEejVPAiPoT-35" value="&lt;h1&gt;Scenario 2: Check count of metric results is over 0 then send alert&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Problems:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Alert email doesn&#39;t contain value for total amount of&amp;nbsp; PIs in sending, so would have to view metrics.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
